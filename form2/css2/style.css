@@ -1,0 +1,24 @@
+ .content {
+     margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+h2 {
+    font-size: 50px;
+}
+p {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.button {
+    background-color: #8de;
+    border: 0;
+    color: white;
+    padding: 7px 30px;
+    font-size: 19px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+img {
+     width: 30%;
+}

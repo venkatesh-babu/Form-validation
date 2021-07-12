@@ -1,0 +1,143 @@
+*{
+    font-family: 'Source Sans Pro';
+    padding: 0;
+    margin: 0;
+}
+.content {
+    width: 100%;
+    background-color: #9dd;
+}
+.content-con {
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+}
+.content-in {
+    background-color: white;
+    padding: 8% 5%;
+    display: flex;
+    border-radius: 20px;
+}
+.content-in-left {
+    width: 50%;
+}
+.content-in-right {
+    width: 50%;
+}
+.image img {
+    width: 100%;
+}
+.heading {
+    text-align: center;
+    margin-bottom: 12%;
+}
+.heading h4 {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+.heading p {
+    font-size: 13px;
+}
+form {
+    width: 67%;
+    margin: 0 auto;
+}
+.field1 {
+    position: relative;
+    margin-bottom: 20px;
+}
+.field1 i {
+    top: 37%;
+    position: absolute;
+    left: 3%;
+    font-style: normal;
+    transition: 0.2s;
+}
+.field1 i img {
+    width: 9px;
+    opacity: 30%;
+    padding-right: 5px;
+    cursor: text;
+}
+.input {
+    padding: 10px 28px;
+    border: 0;
+    width: 100%;
+    border-bottom: 1px solid  #ddd;
+    outline: 0;
+    border-radius: 3px;
+}
+.field2 {
+    text-align: center;
+    margin-top: 30px;
+}
+.field1 i {
+    color: #7bb;
+}
+.field2 input {
+    color: white;
+    border: 0;
+    padding: 8px 25px;
+    background-color: #9dd;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.bottom {
+    margin-top: 40px;
+    font-size: 13px;
+    text-align: center;
+}
+.bottom a {
+    color: red;
+    padding-left: 8px;
+    cursor: pointer;
+}
+.field1 a {
+    font-size: 13px;
+    color: red;
+    display: none;
+}
+.field1 a img {
+    width: 9px;
+    padding-right: 3px;
+}
+.hidden-xtra .hidden-xtra2 {
+    display: none;
+}
+.input:focus {
+    border: thin solid #32cd32;
+    background-color:#fff;
+}
+.input:focus ~ i {
+    top: -10px;
+    left: 15px;
+    font-size: small;
+    color: black;
+    background-color:#fff;
+    padding:0 5px 0 5px;
+}
+input:focus::placeholder {
+    color: transparent;
+}
+input:focus-within::placeholder {
+    color: transparent;
+}
+.box {
+    margin-right: 5px;
+    height: 10px;
+}
+span {
+    font-size: 13px;
+}
+.display-box {
+    margin-top: -15px;
+}
+.label {
+    display: none;
+}
+.input:focus ~ i label {
+    display: inline-flex;
+}
